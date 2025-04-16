@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "predev": "npx tsc",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules bot.ts"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.12",
+    "bcrypt": "^5.1.1",
+    "cpf-cnpj-validator": "^1.0.3",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemailer": "^6.10.1",
+    "path": "^0.12.7",
+    "pg": "^8.14.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^22.9.0",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "@types/nodemailer": "^6.4.16",
+    "@types/pg": "^8.11.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
